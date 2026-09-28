@@ -40,7 +40,7 @@
             Console.WriteLine(gym.MostActive().Describe());
             //Console.WriteLine(gym.BestValue());
 
-            Console.WriteLine($"{gym.BestValue().Owner.Name}: {gym.BestValue().PricePerVisit()} Ft/alkalom");
+            Console.WriteLine($" legjobb alkalmas ár: {gym.BestValue().Owner.Name}: {gym.BestValue().PricePerVisit()} Ft/alkalom");
 
 
         }
